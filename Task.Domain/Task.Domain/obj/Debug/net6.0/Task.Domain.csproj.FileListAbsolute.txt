@@ -1,0 +1,11 @@
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\bin\Debug\net6.0\Task.Domain.deps.json
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\bin\Debug\net6.0\Task.Domain.dll
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\bin\Debug\net6.0\Task.Domain.pdb
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.AssemblyInfoInputs.cache
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.AssemblyInfo.cs
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.csproj.CoreCompileInputs.cache
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.dll
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\refint\Task.Domain.dll
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\Task.Domain.pdb
+C:\Users\simch\source\repos\TechTask\Task.Domain\Task.Domain\obj\Debug\net6.0\ref\Task.Domain.dll
