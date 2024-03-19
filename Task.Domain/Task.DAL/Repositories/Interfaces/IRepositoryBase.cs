@@ -14,6 +14,8 @@ namespace Task.DAL.Repositories.Interfaces
 
         public void Delete(T entity);
 
+        T GetById(int id);
+
         public Task<IEnumerable<T>> GetAllAsync(
         Expression<Func<T, bool>>? predicate = default,
         Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = default);

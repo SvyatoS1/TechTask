@@ -8,8 +8,8 @@ namespace Task.DAL.EntityConfiguration
     {
         public void Configure(EntityTypeBuilder<Teacher> builder)
         {
-            builder.HasKey(t => t.TeacherId);
-            builder.HasIndex(t => t.TeacherId).IsUnique();
+            builder.HasKey(t => t.Id);
+            builder.HasIndex(t => t.Id).IsUnique();
 
             builder.Property(t => t.Name).IsRequired()
                 .HasMaxLength(20);

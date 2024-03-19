@@ -4,14 +4,184 @@
     "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj": {
+    "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\Task.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj",
-        "projectName": "Task.WebApi",
-        "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\Task.BLL.csproj",
+        "projectName": "Task.BLL",
+        "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\Task.BLL.csproj",
         "packagesPath": "C:\\Users\\simch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\Task.Domain.csproj": {
+                "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\Task.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\Task.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\Task.DAL.csproj",
+        "projectName": "Task.DAL",
+        "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\Task.DAL.csproj",
+        "packagesPath": "C:\\Users\\simch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\Task.BLL.csproj": {
+                "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.BLL\\Task.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\Task.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\Task.Domain.csproj",
+        "projectName": "Task.Domain",
+        "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\Task.Domain.csproj",
+        "packagesPath": "C:\\Users\\simch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +214,90 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj",
+        "projectName": "Task.WebApi",
+        "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\Task.WebApi.csproj",
+        "packagesPath": "C:\\Users\\simch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\simch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\Task.DAL.csproj": {
+                "projectPath": "C:\\Users\\simch\\source\\repos\\TechTask\\Task.Domain\\Task.DAL\\Task.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

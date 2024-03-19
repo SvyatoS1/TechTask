@@ -7,8 +7,8 @@ namespace Task.DAL.EntityConfiguration
     {
         public void Configure(EntityTypeBuilder<Student> builder)
         {
-            builder.HasKey(s => s.StudentId);
-            builder.HasIndex(s => s.StudentId).IsUnique();
+            builder.HasKey(s => s.Id);
+            builder.HasIndex(s => s.Id).IsUnique();
 
             builder.Property(s => s.Name).IsRequired()
             .HasMaxLength(20);
